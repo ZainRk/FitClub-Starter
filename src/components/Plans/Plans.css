@@ -71,5 +71,5 @@
 }
  
 .plans>:nth-child(2)>button{
-    fill: white;
+    color: orange;
 }
