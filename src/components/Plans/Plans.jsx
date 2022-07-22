@@ -21,16 +21,18 @@ const Plans = () => {
                 <span>$ {plan.price}</span>
 
                 <div className="features">
-                    {plan.features.map((feature, i)=>(
-                        <div className="features">
+                    {plan.features.map((feature, i) => (
+                        <div className="feature">
                             <img src={whiteTick} alt=""/>
                             <span key={i}>{feature}</span>
                         </div>
                     ))}
                 </div>
 
+
+                
                 <div>
-                    <span>See More benefits </span>
+                    <span>See More benefits -></span>
                 </div>
                 <button className="btn">Join Now</button>
             </div>
