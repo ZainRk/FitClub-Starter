@@ -53,5 +53,26 @@
     background-color: transparent;
     right: 9rem;
     top: 0.9rem;
+}
 
+.right-t>:nth-child(2) {
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 4rem;
+    background: var(--planCard);
+}
+
+.arrows {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+
+.arrows>img {
+    width: 1.5rem;
+    cursor: pointer;
 }

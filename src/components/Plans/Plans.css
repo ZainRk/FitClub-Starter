@@ -7,6 +7,20 @@
     position: relative;
 }
 
+.plans-blur-1 {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+
+.plans-blur-2 {
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0rem;
+}
+
 .plans {
     display: flex;
     align-items: center;
