@@ -1,0 +1,19 @@
+.Testimonials {
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.left-t {
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+
+.left-t>:nth-child(1) 
+{
+    color: var();
+}

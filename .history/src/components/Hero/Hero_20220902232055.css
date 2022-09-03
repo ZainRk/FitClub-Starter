@@ -1,0 +1,15 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+}
+
+.header-menu{
+    list-style: none;
+    
+}

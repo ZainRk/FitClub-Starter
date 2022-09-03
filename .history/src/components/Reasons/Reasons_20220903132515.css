@@ -1,0 +1,19 @@
+.Reasons {
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.left-r {
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-auto-rows: 1fr;
+}
+
+.left-r
+
+.right-r {
+    flex: 1 1;
+}
