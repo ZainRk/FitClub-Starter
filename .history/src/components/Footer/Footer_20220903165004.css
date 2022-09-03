@@ -1,0 +1,9 @@
+.Footer-container {
+    position: relative;
+}
+
+.Footer-container>hr {
+    border: 1px solid var(--lightgray);
+}
+
+.footer
