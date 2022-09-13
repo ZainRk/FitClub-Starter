@@ -2,3 +2,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+.left-h {
+  padding: 2rem;
+  padding-top: 1.5em;
+  flex: 3;
+}
+
+.right-h {
+  flex: 1;
+}
