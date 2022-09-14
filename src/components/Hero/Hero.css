@@ -60,3 +60,41 @@
   letter-spacing: 1px;
   width: 80%;
 }
+
+.figures {
+  display: flex;
+  gap: 2rem;
+}
+
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.figures > div > span:nth-of-type(1) {
+  color: white;
+  font-size: 2rem;
+}
+
+.figures > div > span:nth-of-type(2) {
+  color: var(--gray);
+  text-transform: uppercase;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+}
+
+.hero-buttons > :nth-child(1) {
+  color: white;
+  background-color: var(--orange);
+  width: 8rem;
+}
+.hero-buttons > :nth-child(2) {
+  color: white;
+  background-color: transparent;
+  width: 8rem;
+  border: 2px solid var(--orange);
+}
