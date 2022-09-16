@@ -1,7 +1,7 @@
 .Reasons {
   padding: 0 2rem;
   display: flex;
-  grid-template: 2rem;
+  gap: 2rem;
 }
 .left-r {
   flex: 1 1;
@@ -29,14 +29,31 @@
   width: 14rem;
   grid-column: 2/3;
   grid-row: 2;
-
 }
 .left-r > :nth-child(4) {
   width: 10rem;
   grid-row: 2;
   grid-column: 3/4;
-
+  height: 11.2em;
 }
+
 .right-r {
   flex: 1 1;
+  text-transform: uppercase;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
 }
+
+.right-r > span {
+  font-weight: bold;
+  color: var(--orange);
+}
+
+.right-r > div {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
