@@ -20,4 +20,5 @@
 }
 ::-webkit-scrollbar{
   display: none;
+  padding: 5px;
 }
