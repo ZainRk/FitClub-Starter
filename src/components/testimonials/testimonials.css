@@ -1,0 +1,153 @@
+.testimonials {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.left-t {
+  display: flex;
+  flex: 1 1;
+  gap: 2rem;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.left-t :nth-child(1) {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.left-t > :nth-child(2),
+.left-t > :nth-child(3) {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.left-t > :nth-child(4) {
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.right-t {
+  flex: 1;
+  position: relative;
+}
+
+.right-t > img {
+  position: absolute;
+  width: 18rem;
+  height: 21rem;
+  object-fit: cover;
+  right: 15rem;
+  top: 3rem;
+}
+
+.right-t > :nth-child(1) {
+  position: absolute;
+  width: 18rem;
+  height: 21rem;
+  border: 2px solid var(--orange);
+  background-color: transparent;
+  right: 17rem;
+  top: 0.9rem;
+}
+
+.right-t > :nth-child(2) {
+  position: absolute;
+  width: 18rem;
+  height: 21rem;
+  right: 13rem;
+  top: 5rem;
+  background: var(--planCard);
+}
+
+.arrows {
+  display: flex;
+  gap: 1.5rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 6rem;
+}
+
+.arrows img {
+  width: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .left-t > :nth-child(2),
+  .left-t > :nth-child(3) {
+    font-size: 3rem;
+  }
+
+  .right-t > img {
+    height: 20rem;
+    width: 17rem;
+    right: 8rem;
+    top: 2rem;
+  }
+
+  .right-t > :nth-child(2) {
+    height: 19rem;
+    width: 17rem;
+    right: 7rem;
+    top: 4rem;
+  }
+
+  .right-t > :first-child {
+    width: 17rem;
+    height: 20rem;
+    right: 9rem;
+    top: 0.9rem;
+  }
+
+  .arrows {
+    gap: 2rem;
+    bottom: 1rem;
+    left: 5rem;
+  }
+
+  .arrows img {
+    width: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonials {
+    flex-direction: column;
+  }
+
+  .left-t :nth-child(2),
+  .left-t :nth-child(3) {
+    font: xx-large;
+  }
+
+  .right-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .right-t > div {
+    position: relative;
+    display: none;
+  }
+
+  .right-t > img {
+    top: 0;
+    right: 0;
+    position: relative;
+    align-self: center;
+  }
+
+  .right-t > :last-child {
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+}

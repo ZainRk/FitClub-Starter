@@ -1,0 +1,76 @@
+.join {
+  display: flex;
+  padding: 0 2rem;
+  gap: 20rem;
+}
+
+.left-j {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.left-j hr {
+  position: absolute;
+  width: 13rem;
+  border: 2px solid var(--orange);
+  margin: -15px 0;
+}
+
+.right-j {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-container {
+  display: flex;
+  gap: 4rem;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+.email-container input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--lightgrayz);
+}
+
+::placeholder {
+  color: var(--lightgray);
+}
+
+.btn-j {
+  background: var(--orange);
+  color: #fff;
+}
+
+@media screen and (max-width: 1440px) {
+  .left-j {
+    font-size: 3rem;
+  }
+
+  .email-container {
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .join {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .left-j {
+    font-size: x-large;
+    flex-direction: column;
+  }
+
+  .right-j {
+    padding: 2rem;
+  }
+}
