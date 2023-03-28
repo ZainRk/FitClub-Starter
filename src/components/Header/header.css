@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: #fff;
+}
+
+.header-menu li:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
+
+.header-menu-res {
+  z-index: 9;
+  display: none;
+}
+
+.header-menu-res-hidden {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+
+  .header-menu-res {
+    display: block;
+  }
+}
