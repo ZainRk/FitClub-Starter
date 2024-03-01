@@ -49,3 +49,10 @@
     color: white;
     text-overflow: inherit;
 }
+.hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
